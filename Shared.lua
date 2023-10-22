@@ -104,6 +104,7 @@ heap.MAX_HEAP_INCREASE_KEY = function(A:KeyArray<number>, x:KeyTable<number>, k:
 	while i > 1 and A.heap[heap.PARENT(i)].key < A.heap[i].key do
 		-- TODO:
 		-- Do this, cause it's not explained, or will be explained in the near future.
+		-- (Update references in the heap after swapping the values)
 		i = heap.PARENT(i);
 	end
 end
