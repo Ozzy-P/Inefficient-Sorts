@@ -7,6 +7,6 @@ I don't know (I already forgot what's the best use case for each one).
 
 # Runtime [Not accurate]
 - Using 2500 elements in an array
-- Built in sort (C): 0.0633ms
+- Built in sort (C): 63.3351ms
 - QuickSort: DNF (Yes it broke.)
-- HeapSort: 3.2794ms
+- HeapSort: 3279.4721ms
